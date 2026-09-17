@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import PopularMenu from "../components/PopularMenu/PopularMenu";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
+import OurChefs from "../components/OurChefs/OurChefs";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Hero />
       <PopularMenu />
       <WhyChooseUs />
+      <OurChefs />
     </main>
   );
 }
