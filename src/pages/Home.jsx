@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import PopularMenu from "../components/PopularMenu/PopularMenu";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
 import OurChefs from "../components/OurChefs/OurChefs";
+import FoodGallery from "../components/FoodGallery/FoodGallery";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <PopularMenu />
       <WhyChooseUs />
       <OurChefs />
+      <FoodGallery />
     </main>
   );
 }
